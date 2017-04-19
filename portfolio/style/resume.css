@@ -1,0 +1,179 @@
+body, html, article {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+body, header, nav{
+position: relative;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+ background-image: url(../img/bg.jpg) ;
+}
+header{
+background-image: url(../img/bg1.jpg) ;
+  min-height: 40px;
+
+}
+nav{
+	width:100%;
+	height:30px;
+	background-image:url(../img/bg1c.jpg);
+	}
+article{
+  position: relative;
+  top: 20px;
+  width: 60%;
+	margin: 0px auto;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  align-content: center;
+  padding: 29px;
+  margin-bottom:200px;
+  transition-duration:25s;
+}
+article:hover{
+
+  background-color: rgba(255,255,255,1);
+}
+footer {
+	background-color:#282E34;
+	text-align:center;
+	position: fixed;
+  width: 100%;
+	bottom: 0;
+}
+.hom{
+	width: 10vmin;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.logo{
+	position: absolute;
+	left: 40%;
+  top: 25%;
+	width: 20%;
+  transition-duration: 5s;
+  transition-property: transform;
+}
+.logo:hover{
+  transform:scale(1.5) rotate(-360deg);
+}
+.nama{
+	position: absolute;
+	left: 35%;
+  top: 70%;
+  width: 30%;;
+  text-align: center;
+  color: #000;
+  font-size: 150%;
+  font-family: "arial black";
+  transition-duration: 5s;
+  transition-property: transform;
+}
+@media only screen and (max-device-width: 512px) {
+    .nama {
+        font-size: 100%;
+    }
+}
+.nama:hover{
+	transform:scale(1.5);
+}
+.menu1{
+float: left;
+display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 100%; 
+  background: #fff;
+  opacity: 0.7;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  padding-top: 8px;
+  color: #2098D1;
+  transition-duration: 1s;
+}
+.menu1:hover{
+  background: none;
+  opacity: 1;
+  text-decoration: underline;
+}
+.menu-aktif{
+  background: none;
+  opacity: 0.9;
+}
+.tes{
+position: relative;
+  
+  margin: 10px;
+  background: #000;
+  border-style: double;
+  border-color: #000;
+  width: 200px;
+  height: 25px; }
+  
+.edit, .java, .design, .web{
+  position: relative;
+    background: #fff;
+  vertical-align: middle;
+  height:  25px; }
+.java{
+width: 110px;}
+.edit{
+  width: 80px;
+}
+.design{
+  
+  width: 70px;
+}
+.web{
+  
+  width: 60px;
+}
+.skil{
+  float: right;
+  border-style: ridge;
+  border-color: #000;
+  border-radius: 20px;
+  position: relative;
+  width: 227px;
+  text-align: center;
+  font-weight: 900;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+.bio {
+	position: relative;
+	width: 60%;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 2.5vmin;
+	border: 3px solid grey;
+	border-style: dashed;
+	border-radius: 2px;
+	padding: 20px;
+}
+.bio p::first-letter {
+	font-size: 200%;
+}
+.bio:hover {
+	border-style: solid;
+}
+.boi {
+	display: block;
+	text-align: center;
+	padding: 20px;
+	font-size: 7vmin;
+	letter-spacing: 2vmin;
+	text-decoration: underline;
+	font-weight: bold;
+}
