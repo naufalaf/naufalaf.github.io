@@ -1,0 +1,159 @@
+
+body{
+	font-family: 'Roboto Slab', serif;
+	background: #6cf;
+}
+a {
+    color: #D4F1FF;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+.container{
+	width: 1000px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border: 1px solid #08038C;
+	box-shadow: 0 0 8px 3px #fff;
+}
+
+.title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #08038C;
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background: #08038C;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #f6f6f6;
+}
+
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px 0 10px 10px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.option:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.next-btn{
+	border: none;
+	outline: none;
+	background: rgba(255, 25, 255, 0.5);
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+}
+
+.next-btn:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.result{
+	height: 100px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.option input:checked .option{
+	background: #08038C;
+	color: #000;
+}
+
+embed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 700px;
+    height: 400px;
+}
+/* Overline From Center */
+.bck-button {
+	
+	border: none;
+	outline: none;
+	background: #08038C;
+	display: block;
+	width: 100px;
+	height: 35px;
+	cursor: pointer;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+	text-align: -moz-center;
+  padding-top: 10px; 
+	margin: 10px;
+  float: left;
+  }
+.bck-button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  background: #2098d1;
+  height: 7px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.bck-button:hover:before, .bck-button:focus:before, .bck-button:active:before {
+  left: 0;
+  right: 0;
+}
+#menu{
+	
+	margin-left: 38%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
